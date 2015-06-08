@@ -1,0 +1,181 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Coupled Harmonic Oscillator (Procedure) : Virtual Laboratory: Oscillations : Physical Sciences : IIT KANPUR Virtual Lab </title><META NAME="description" content="Oscillations of two coupled harmonic oscillators" /><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"><link rel="shortcut icon" type="image/x-icon" href="theme/iitk/images/favicon.ico">
+<link href="theme/iitk/css/main.css" rel="stylesheet" type="text/css"/>
+ <style type="text/css">
+.slideshow { margin: auto; }
+.title {
+	padding-left:0px !important;
+	}
+.breadcum {
+	margin-left:0px !important;
+	}
+</style>
+
+<!-- include jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/top_up-min.js"></script>
+
+<!-- include Cycle plugin -->
+<script type="text/javascript" src="js/jquery.cycle.lite.min.js"></script>
+<link href="theme/iitk/css/tabs.css" rel="stylesheet" type="text/css"><link rel="stylesheet" type="text/css" href="js/grid/gt_grid.css" />
+<script type="text/javascript" src="js/grid/gt_msg_en.js"></script>
+<script type="text/javascript" src="js/src/gt_const.js"></script>
+<script type="text/javascript" src="js/grid/gt_grid_all.js"></script>
+<script type="text/javascript" src="js/grid/flashchart/fusioncharts/FusionCharts.js"></script>
+</head>
+<body bgcolor="#FFFFFF">
+
+<table id="expandables" align="center" cellpadding="0" cellspacing="0">
+	<tr>
+    	<td bgcolor="#deeefb">
+  		<div id="header_main" align="center"><img align="right" style="padding-right:20px; margin-top:8px;" src="theme/iitk/images/logo.png"/></div>
+ <div id="header"  >      
+		<div class="menu">   
+        <ul><li><a href="index.php">Home</a></li><li><a href="?pg=forum">Forum</a></li><li><a href="?pg=topMenu&id=109">Contact us</a></li><li><a href="javascript: authenticate()">Login</a></li></ul>		<div class="clear"></div>        
+		</div>
+        <div class="searchbox">								
+		<form action="http://iitk.vlab.co.in/" id="cse-search-box">
+		<div>
+		<input type="hidden" name="pg" value="bindex" />
+		<input type="hidden" name="bsub" value="search" />
+		<input type="hidden" name="lan" value="en-IN" />
+		<input type="hidden" name="cx" value="008976432297318053942:3gnilsveije" />
+		<input type="hidden" name="cof" value="FORID:11" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" size="15" />
+		<input class="srchButton" type="submit" name="sa" value="Search" />
+		</div>
+		</form>
+		</div> </div>        </td>
+    </tr>
+    <tr>
+    	<td>
+    	<table align="center" cellpadding="0" cellspacing="0" style="min-width:1024px;">
+        	<tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td bgcolor="#e8f2fb" align="left"><div class="breadcum">you are here-><a href="?">home</a>-><a href="?sub=27">Physical Sciences</a>-><a href="?sub=27&brch=236">Virtual Laboratory: Oscillations</a>-><a href="">Coupled Harmonic Oscillator</a></div></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" align="right"></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            	<td colspan="3" bgcolor="#e8f2fb" style="white-space:nowrap;"><div class="title">Coupled Harmonic Oscillator</div></td>
+                <td bgcolor="#e8f2fb" style="color:#e8f2fb;">.</td>
+            </tr>
+            <tr>
+            	<td height="89" bgcolor="#e8f2fb" style="color:#e8f2fb;">
+                	.
+                </td>
+            	<td colspan="3" rowspan="2"><div id="div1Style" class="div1Style" ><div id="backGroundBG" class="bg"><table id="tabtable" border="0px" cellpadding="0px" cellspacing="0px" width="100%"><tr><td id="lcurve" width="21px" height="145px"></td><td id="mcurve" rowspan="2"><div id="ddtabs2" class="glowingtabs"><ul><li class=""><a href="?sub=27&brch=236&sim=1214&cnt=1"><span><div id="tabspan" ><img id="tabimg" src="theme/iitk/images/tab_icon_image/content_1.png" alt=""/></div><div id="tab_name" >Theory&nbsp;</div></span></a></li><li class="current"><a href="?sub=27&brch=236&sim=1214&cnt=2"><span><div id="tabspan" ><img id="tabimg" src="theme/iitk/images/tab_icon_image/content_2.png" alt=""/></div><div id="tab_name" >Procedure&nbsp;</div></span></a></li><li class=""><a href="?sub=27&brch=236&sim=1214&cnt=3"><span><div id="tabspan" ><img id="tabimg" src="theme/iitk/images/tab_icon_image/content_3.png" alt=""/></div><div id="tab_name" >Self Evaluation&nbsp;</div></span></a></li><li class=""><a href="?sub=27&brch=236&sim=1214&cnt=4"><span><div id="tabspan" ><img id="tabimg" src="theme/iitk/images/tab_icon_image/content_4.png" alt=""/></div><div id="tab_name" >Simulator&nbsp;</div></span></a></li><li class=""><a href="?sub=27&brch=236&sim=1214&cnt=7"><span><div id="tabspan" ><img id="tabimg" src="theme/iitk/images/tab_icon_image/content_7.png" alt=""/></div><div id="tab_name" >Feedback&nbsp;</div></span></a></li></ul></div></td><td id="rcurve" width="21px" height="145px"></td></tr><tr><td></td><td></td></tr></table></div><div class="divContent"><h3 style="COLOR: red"><a href="http://iitk.vlab.co.in/index.php?sub=27&amp;brch=236&amp;sim=1275&amp;cnt=2598"><span class="CLS_Headin"><span style="COLOR: #ff0000">Before performing the experiments, make sure that you have gone through all the steps given in the section</span></span><span style="COLOR: #ff0000"> <big>&#39;Few important things to DO befor going to the experiments&#39; </big>and installed all the essential softwares mandatory for running the experiments. If you&#39;ve not done it, click here and go back to that section.</span></a></h3>
+
+<p>&nbsp;</p>
+
+<p class="MsoNormal" style="mso-pagination:none"><big>To perform the experiment, you need to download the program to your PC. Direct download links are provided below so that you can download the executable file for the experiment and run the program on your computer locally Offline.</big></p>
+
+<p class="MsoNormal" style="">&nbsp;</p>
+
+<p><u><strong><big><a href="https://drive.google.com/file/d/0B_4NFirzGX3_cEZ4a3ZLQnVpdjg/view?usp=sharing" target="_blank"><u><strong><big>Click here to download the program to run on your own PC offline</big></strong></u></a></big></strong></u></p>
+
+<p class="MsoNormal" style="text-align: justify;">&nbsp;</p>
+
+<p class="MsoNormal" style="mso-pagination:none;text-align:justify;text-justify:
+newspaper;text-kashida-space:50%;text-align:justify;text-justify:newspaper;
+text-kashida-space:50%"><u><em><big>Procedure for downloading and running programs offline:</big></em></u></p>
+
+<ul>
+	<li><big>To download the programs, right click on the link above and choose &lsquo;save target as&rsquo;, or, &lsquo;save link as&rsquo; depending on the browser. </big></li>
+	<li><big>Save the &lsquo;.zip&rsquo; file to any directory on your PC.</big></li>
+	<li><big>Extract the ALL contents of the .zip file to the SAME folder.</big></li>
+	<li><big>Double click on the file &ldquo;coupled_pendulum.exe&rdquo; to start executing the program.</big></li>
+	<li><big>After this, perform the experiment as demonstrated in the video instructions provided in the link below.</big></li>
+</ul>
+
+<p class="MsoNormal" style="">&nbsp;</p>
+
+<p class="MsoNormal" style="mso-pagination:none"><big>Demonstrations of how to run the program is provided as a video.</big> <big>The video is in &lsquo;.avi&rsquo; format. It is recommended that you download and watch the demonstration video before performing the virtual experiment.</big></p>
+
+<p class="MsoNormal" style="text-align: justify;">&nbsp;</p>
+
+<p><u><strong><big><a href="https://drive.google.com/file/d/0B_4NFirzGX3_Y3VKem9DTi1ZNVk/view?usp=sharing" target="_blank"><u><strong><big>Click here to download the step-by-step instructions video demonstration</big></strong></u></a></big></strong></u></p>
+
+<p>&nbsp;</p>
+</div><div style="background:#e7ecee; margin:0px 10px 0px 10px;position:relative"><p style="font-family:Verdana, Geneva, sans-serif; font-size:16px; padding:5px;"><strong>Cite this Simulator:</strong></p><input style="border:none; background:#e7ecee;padding:5px;font-size:14px;" onclick="javascript: SelectAll('citeText')" type="text" id="citeText" value="iitk.vlab.co.in,. (2012). Coupled Harmonic Oscillator. Retrieved 8 June 2015, from iitk.vlab.co.in/index.php?sub=27&brch=236&sim=1214&cnt=2" /></div><script>
+if(navigator.userAgent.search("Firefox" )> -1)
+{
+document.getElementById("citeText").size=document.getElementById("citeText").value.length+20;
+	}
+	else
+	{
+document.getElementById("citeText").size=document.getElementById("citeText").value.length;
+	}
+</script>
+</div></td>
+                <td height="89" bgcolor="#e8f2fb" id="top_rightc" style="color:#e8f2fb;">.....</td>
+            </tr>
+            <tr>
+            	<td width="23" id="side_left" style="color:#e8f2fb;">.....</td>
+                <td width="23" id="side_right" style="color:#e8f2fb;">.....</td>
+            </tr>
+        </table>
+        </td>
+    </tr>
+    <tr>
+    	<td><div style="margin:auto; width: inherit; height:28px; background-color:#e3f2fc;" align="center">
+	<table width="100%" cellpadding="0" cellspacing="0" border="0">
+    	<tr>
+        	<td width="19" height="29"><img src="theme/iitk/images/foot_left.gif"/></td>
+            <td height="29" bgcolor="#0f8de1" align="center" style="color:#FFF;"><a href="http://virtual-labs.ac.in/licensing/" target="_new" style="color:#FFF">Copyright @ 2015 Under the NME ICT initiative of MHRD (Licensing Terms)</a></td>
+            <td width="19" height="29"><img src="theme/iitk/images/foot_right.gif"/></td>
+        </tr>
+    </table>
+</div>
+</div>
+<div align="center">&nbsp;Powered by <a style="border-bottom:none;" target="_blank" href="https://www.amrita.edu">Amrita</a><a style="border-bottom:none;" 
+target="_blank" href="https://www.amrita.edu/research/project/collaborative-and-accessible-platform-cap-distributed-content">Virtual Lab Collaborative Platform</a> [ Ver 00.3.2 ]</div>
+<script type="text/javascript" src="js/javascript_functions.js"></script>
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://ahs.amrita.ac.in/logs/" : "http://ahs.amrita.ac.in/logs/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 2);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://ahs.amrita.ac.in/logs/piwik.php?idsite=2" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
+<script type="text/javascript">
+var _gap = _gap || [];
+_gap.push(["_setAccount", "UA-254910-22"]); 
+_gap.push(["_trackPageview"]);
+_gap.push(["_gapTrackBounceViaTime", 20]); 
+_gap.push(["_gapTrackBounceViaScroll", 50]); 
+_gap.push(["_gapTrackReads", 30, 30]); 
+_gap.push(["_gapTrackLinkClicks"]);
+
+(function() {
+    var gap = document.createElement("script");
+    gap.async = true;
+    gap.type = "text/javascript";
+    gap.src = "/js/gap.min.js"; 
+
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(gap, s);
+})();
+</script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&lang=en"></script>
+<script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box2&lang=en"></script>
+
+</body>
+</html>
+</td>
+    </tr>
+</table>
+</body>
+</html>
+
